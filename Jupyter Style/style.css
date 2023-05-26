@@ -1,45 +1,46 @@
-#centro{
+/* <link rel="stylesheet" href="../../Jupyter Style/style.css"> */
+#center{
   text-align:center;
 }
-.vermelho{
+.red{
   color:#C82F4B;
 }
 span{
   color:#6990C3;
 }
-.azul{
+.blue{
   color:#6990C3;
 }
 h1{
-  animation: branco 1s linear infinite alternate;
+  animation: white 1s linear infinite alternate;
   transition: transform 0.5s ease-in-out;
   text-align:center;
   font-weight: 700;
 }
 h2{
-  animation: branco 1s linear infinite alternate;
+  animation: white 1s linear infinite alternate;
   transition: transform 0.5s ease-in-out;
   text-align:center;
 }
 h3{
-  animation: vermelho 1s linear infinite alternate;
+  animation: red 1s linear infinite alternate;
   color:#C82F4B;
   transition: transform 0.5s ease-in-out;
   text-align:center;
   font-weight: 700;
 }
-.verde{
+.green{
   color:#5AA695;
 }
 h4{
-  animation: azul 1s linear infinite alternate;
+  animation: blue 1s linear infinite alternate;
   color:#6990C3;
   transition: transform 0.5s ease-in-out;
   text-align:center;
   font-weight: 700;
 }
 h5{
-  animation: verde 1s linear infinite alternate;
+  animation: green 1s linear infinite alternate;
   color:#5AA695;
   transition: transform 0.5s ease-in-out;
   text-align:center;
@@ -49,17 +50,17 @@ p{
   text-align: center;
 }
 
-.branco-neon{
-  animation: branco 1s linear infinite alternate;
+.white-neon{
+  animation: white 1s linear infinite alternate;
   transition: transform 0.5s ease-in-out;
   color:white;
   height: 100px;
 }
-.branco-neon:hover{
+.white-neon:hover{
   animation-play-state:paused;
   transform:scale(1.1);
 }
-@keyframes branco{
+@keyframes white{
   from{
     text-shadow:2px 2px 10px;
     color:white;
@@ -74,16 +75,16 @@ p{
   }
 }
 
-.vermelho-neon{
-  animation: vermelho 1s linear infinite alternate;
+.red-neon{
+  animation: red 1s linear infinite alternate;
   color:#C82F4B;
   transition: transform 0.5s ease-in-out;
 }
-.vermelho-neon:hover{
+.red-neon:hover{
   animation-play-state:paused;
   transform:scale(1.1);
 }
-@keyframes vermelho{
+@keyframes red{
   from{
     text-shadow:2px 2px 10px #C82F4B;
   }
@@ -96,16 +97,16 @@ p{
 }
 
 
-.azul-neon{
-  animation: azul 1s linear infinite alternate;
+.blue-neon{
+  animation: blue 1s linear infinite alternate;
   color:#6990C3;
   transition: transform 0.5s ease-in-out;
 }
-.azul-neon:hover{
+.blue-neon:hover{
   animation-play-state:paused;
   transform:scale(1.1);
 }
-@keyframes azul{
+@keyframes blue{
   from{
     text-shadow:2px 2px 10px #6990C3;
   }
@@ -117,16 +118,16 @@ p{
   }
 }
 
-  .verde-neon{
-    animation: verde 1s linear infinite alternate;
+  .green-neon{
+    animation: green 1s linear infinite alternate;
     color:#5AA695;
     transition: transform 0.5s ease-in-out;
   }
-  .verde-neon:hover{
+  .green-neon:hover{
     animation-play-state:paused;
     transform:scale(1.1);
   }
-  @keyframes verde{
+  @keyframes green{
     from{
       text-shadow:2px 2px 10px #5AA695;
     }
